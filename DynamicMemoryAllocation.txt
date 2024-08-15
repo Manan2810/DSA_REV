@@ -1,0 +1,18 @@
+stack memory(small in size - default) used for saving 
+    1. local variables
+    2. funtion parameters
+
+Heap memory(big in size - default) used for saving
+    1. here we use new keyword to create a memory space over there
+    2. int * a = new int; here (new int) returns an address that is stored in the pointer
+    3. to deallocate the memory used by using new keyword we use another keyword ie delete
+
+
+the size of the both stack and heap memory can be changed:
+    1. compiler settings
+    2. os configeration
+
+stack me memory taken apne aap deallocate ho jaati hai
+
+2D Arrys
+int ** arr = new int*[n];
